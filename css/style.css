@@ -1,0 +1,342 @@
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #202020;
+}
+
+/*navbar*/
+
+.logo {
+  width: 150px;
+}
+
+.navbar {
+  background: #272829;
+  padding: 0px 90px;
+  height: 70px;
+}
+
+.navbar-nav {
+  font-size: 14px;
+  line-height: 50px;
+  font-weight: 700;
+}
+
+.nav-link {
+  color: white;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  height: 20px;
+  margin-top: 32px;
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-link:hover {
+  color: #fb2525;
+}
+
+.active {
+  color: #fb2525;
+}
+
+.nav-item {
+  padding: 0px 0px 0px 10px;
+  height: 80px;
+}
+
+.nav .nav-item {
+  padding: 8px;
+}
+
+.nav-item .user {
+  width: 40px;
+  height: 40px;
+}
+
+.nav-user {
+  margin-top: 32px;
+}
+
+.icons {
+  height: 22px;
+}
+
+/*-------------Carrosel-------------*/
+
+.carousel {
+  padding-bottom: 100px;
+}
+
+.carousel-caption {
+  text-align: start;
+  height: 500px;
+  align-items: center;
+  left: 0%;
+}
+
+.carousel-caption span {
+  margin-left: 50px;
+  margin-right: 10px;
+  font-weight: 700;
+}
+
+.carousel-banner {
+  width: 100vh;
+  max-height: 500px;
+}
+
+.carrousel-title {
+  margin-left: 50px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.carrousel-p {
+  margin-left: 50px;
+}
+
+.faixa-etaria_carrousel {
+  border: 2px solid #fb2525;
+  padding: 0 10px 0 6px;
+  border-radius: 20px;
+}
+
+.carousel-gradient {
+  height: 500px;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 40, 41, 1) 0%,
+    rgba(39, 40, 41, 1) 50%,
+    rgba(8, 178, 212, 0.0032387955182072714) 100%,
+    rgba(0, 212, 255, 0) 100%
+  );
+}
+
+.carousel-control-prev {
+  width: 50px;
+}
+
+.carousel-control-next {
+  width: 50px;
+}
+
+.btn-carrousel {
+  margin-left: 30px;
+}
+
+.btn-carrousel_item {
+  background: #fb2525;
+  margin-left: 20px;
+}
+
+/* body */
+
+.c-btn-filter {
+  display: flex;
+  padding: 0px 100px;
+}
+
+.btn {
+  color: white;
+  font-weight: 700;
+  border-radius: 0px;
+}
+
+.btn:hover {
+  color: #fb2525;
+}
+
+.btn.ativo {
+  color: white;
+  border-radius: 0px;
+  background: #fb2525;
+}
+
+.c-cartazes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 100px;
+  padding: 0 100px;
+}
+
+.c-cartazes_item {
+  color: white;
+}
+
+.c-img_cartaz {
+  width: 140px;
+}
+
+.zoom {
+  max-width: 100%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.zoom:hover {
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transform: scale(1.1);
+}
+
+.c-cartazes_item span {
+  color: gray;
+}
+
+.faixa-etaria {
+  padding: 0 10px 0 6px;
+}
+
+.c-title {
+  color: white;
+  font-weight: 700;
+  padding: 0 100px;
+  line-height: 25px;
+  margin-bottom: 45px;
+  font-size: 28px;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: 0.64px;
+}
+
+.c-title::before {
+  background: #fb2525;
+  content: "";
+  height: 3px;
+
+  position: absolute;
+  bottom: -15px;
+  width: 50px;
+}
+
+.c-cartazes-popular_item img {
+  width: 200px;
+}
+
+.c-popular {
+  color: white;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 100px;
+  padding: 0 100px;
+}
+
+.c-popular span {
+  color: gray;
+}
+
+.c-title_box {
+  padding: 0 100px;
+}
+
+.carousel-box {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-inner-box {
+  width: 500px;
+}
+
+.carousel-gradient-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  background: linear-gradient(
+    90deg,
+    rgba(39, 40, 41, 1) 0%,
+    rgba(39, 40, 41, 1) 30%,
+    rgba(8, 178, 212, 0.0032387955182072714) 100%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  padding: 16px;
+}
+
+.carrousel-p-box {
+  font-size: 12px;
+}
+
+/************************************/
+
+.c-best-series {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(to top, #202020, rgb(2 2 2 / 90%)),
+    url("https://www.jornalismo.ufv.br/cinecom/wp-content/uploads/2023/01/dfl9f80-7788060c-aea7-4ff8-824c-4b3557cfd407.jpg");
+  padding: 100px 0;
+}
+
+footer {
+  display: flex;
+  color: white;
+  padding: 100px 100px;
+  gap: 30px;
+  background: #272829;
+}
+
+.c-footer-item {
+  width: 232px;
+  text-align: start;
+}
+
+.c-footer-title {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.c-footer-p {
+  color: gray;
+}
+
+.c-footer-list {
+  padding: 0px;
+}
+
+.c-footer-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.c-footer-icons {
+  padding: 0px;
+  display: flex;
+  gap: 10px;
+}
+
+.c-footer-icon-item img {
+  width: 22px;
+  cursor: pointer;
+}
+
+.c-copy {
+  background-color: black;
+  display: flex;
+  padding: 1.25% 100px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.c-termos {
+  display: flex;
+  gap: 16px;
+}
+
+.c-termos-links {
+  text-decoration: none;
+  color: white;
+}
+
+.c-termos-links:hover {
+  color: #fb2525;
+}
